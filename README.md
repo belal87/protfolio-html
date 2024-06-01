@@ -20,3 +20,11 @@
 - head, body
 
 7. Basic Tags, Styling, Debugging
+
+- tag? types of tags
+- attribute
+- element, content
+- Debugging
+- Comments
+
+8. Heading, Paraggraphs, Line breaks, horizontal rule
