@@ -16,3 +16,7 @@
 - Cersion Control: Git and GitHub
 
 6. Basic structure of HTML
+
+- head, body
+
+7. Basic Tags, Styling, Debugging
