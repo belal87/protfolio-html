@@ -30,12 +30,20 @@
 8. Heading, Paraggraphs, Line breaks, horizontal rule
 9. Semantic HTML vs Non-Semantic HTML
 
-- semantic tag - header, footer, main, form, table
+- semantic tag - header, footer, main, form, table, section
 - non-semantic tag - div, span
 
 10. Text formatting tags
 11. List
-12. Link
-13. Table
-14. Form
-15. Deploy
+
+- ordered list, unordered, defination, nested
+
+12. Link and Navigation
+
+- absolut link vs relative link
+- a tag, attributes: href, target, title
+
+13. Image
+14. Table
+15. Form
+16. Deploy
