@@ -47,3 +47,13 @@
 14. Table
 15. Form
 16. Deploy
+
+## Intermediate HTML
+
+- Meta tag & SEO
+- Adding font-awesome icons
+- advanced table
+- advanced form
+- form data send to your email
+- multimedia
+- html5 elements

@@ -3,112 +3,245 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="belal hossain" />
+    <meta name="keywords" content="portfolio, html" />
+    <meta name="description" content="This is portfolio website" />
+    meta
     <title>Protfolio</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: rgb(231, 234, 237);
+      }
+    </style>
   </head>
   <body>
     <!-- section: navbar-->
-    <nav>
-      <ul>
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">My Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <hr />
 
-    <section id="about">
-      <header>About Us</header>
-      <h1>Protfolio HTM§L</h1>
-      <strong>Hello Protugal</strong><br />
-      <em>Hello Protugal</em><br />
-      <b><mark>Hello Protugal</mark></b
-      ><br />
-      <del>Hello Protugal</del><br />
-      (a+b) <sup>2</sup><br />
-      H<sub>2</sub>o
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul type="circle">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-        <li>REACT</li>
-      </ul>
-      <table border="1" cellpadding="5" cellspacing="0">
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Proficincy</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Expert</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Expert</td>
-          </tr>
-          <tr>
-            <td>React js</td>
-            <td>Expert</td>
-          </tr>
-        </tbody>
-      </table>
-      <dl>
-        <dt>HTML</dt>
-        <dd>HTML is a markup language</dd>
-      </dl>
-    </section>
+    <main>
+      <section id="intro">
+        <h1>Belal Hossain</h1>
+        <strong>Hello Protugal</strong><br />
+        <em>Hello Protugal</em><br />
+        <b><mark>Hello Protugal</mark></b
+        ><br />
+        <del>Hello Protugal</del><br />
+        (a+b) <sup>2</sup><br />
+        H<sub>2</sub>
+      </section>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>
-          JAVASCRIPT
-          <ul>
-            <li>React.js</li>
-            <li>Express.js</li>
-            <li>Type.js</li>
-          </ul>
-        </li>
-        <li>REACT</li>
-      </ol>
-    </section>
+      <section id="about">
+        <h1>About me</h1>
+        <strong>Hello Protugal</strong><br />
+        <em>Hello Protugal</em><br />
+        <b><mark>Hello Protugal</mark></b
+        ><br />
+        <del>Hello Protugal</del><br />
+        (a+b) <sup>2</sup><br />
+        H<sub>2</sub>
+      </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ol>
-        <li>
-          <a href="https://github.com/" target="_blank">Portfolio website</a>
-        </li>
-        <li>Ecommerce website</li>
-        <li>Blog website</li>
-      </ol>
-    </section>
-    <section>
-      <h2>Contact us</h2>
-      <form action="">
-        <label for="name">Name : </label>
-        <input type="text" id="name" name="name" />
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul type="circle">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>REACT</li>
+        </ul>
+        <table border="1" cellpadding="5" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Proficincy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td rowspan="2">Expert</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+            </tr>
+            <tr>
+              <td>React js</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HTML is a markup language</dd>
+        </dl>
+        <div>
+          <h3>Skill Progress</h3>
+          <div>
+            <label for="htmlProgress">HTML : </label>
+            <progress id="htmlProgress" max="100" value="90">90%</progress>
+          </div>
+          <div>
+            <label for="cssProgress">CSS : </label>
+            <progress id="cssProgress" max="100" value="80">80%</progress>
+          </div>
+          <div>
+            <label for="javascriptProgress">JAVASCRIPT :</label>
+            <progress id="javascriptProgress" max="100" value="70">
+              70%
+            </progress>
+          </div>
+        </div>
+        <div>
+          <h3>Experience Level</h3>
+          <label for="experienceLevel">Experience : </label>
+          <meter id="experienceLevel" min="0" max="10" value="5">5 years</meter>
+        </div>
+      </section>
 
-        <label for="email">Email : </label>
-        <input type="email" id="email" name="email" />
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>
+            JAVASCRIPT
+            <ul>
+              <li>React.js</li>
+              <li>Express.js</li>
+              <li>Type.js</li>
+            </ul>
+          </li>
+          <li>REACT</li>
+        </ol>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Clear</button>
-      </form>
-    </section>
+        <h2>Projects</h2>
+        <ol>
+          <li>
+            <a href="https://github.com/" target="_blank">Portfolio website</a>
+          </li>
+          <li>Ecommerce website</li>
+          <li>Blog website</li>
+        </ol>
+      </section>
+
+      <video width="320" controls>
+        <source src="assits/video/video2.mp4" type="video/mp4" />
+        your browser do not suppport this video.
+      </video>
+
+      <section id="contact">
+        <h2>Contact us</h2>
+        <form action="https://formspree.io/f/xknrbwbv" method="POST">
+          <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="age">Age : </label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="18"
+              max="55"
+              required
+            />
+          </div>
+          <div>
+            <label for="website">Website</label>
+            <input
+              type="url"
+              id="website"
+              name="website"
+              pattern="https?://.+"
+            />
+          </div>
+          <div>
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" />
+          </div>
+          <div>
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+              <option value="">Selet a Country</option>
+              <option value="">Protugal</option>
+              <option value="">Bangladesh</option>
+              <option value="">Espan</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="email">Message : </label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </section>
+    </main>
     <footer>
-      <p>Copyright reserved by &copy;belal&hearts;</p>
-      <a href="tel:920460882">Call me</a>
-      <a href="mailto:mdbellhossain521@gmail.com">Email me</a>
+      <div>
+        <p>Copyright reserved by &copy;belal&hearts;</p>
+        <a href="tel:920460882">Call me</a>
+        <a href="mailto:mdbellhossain521@gmail.com">Email me</a>
+        <h3>Follow Me</h3>
+        <ul>
+          <li>
+            <a href="http://google.com"><i class="fa-brands fa-google"></i></a>
+          </li>
+          <li>
+            <a href="http://youtube.com"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.4143416241!2d-9.24213715056115!3d38.74405052670664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa!5e0!3m2!1spt-PT!2spt!4v1718380602159!5m2!1spt-PT!2spt"
+          title="Lisbon map"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </footer>
   </body>
 </html>
