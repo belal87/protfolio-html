@@ -57,3 +57,15 @@
 - form data send to your email
 - multimedia
 - html5 elements
+
+## Advanced HTMl
+
+- more advanced form
+- web accessibility
+  - use semantic tag
+  - use lang attribute
+  - use heading tags in order (h1->h2->h3)
+- HTML5 API
+- HTML Templates and web components
+- sources for symbols, icons, emojis, colors, datalist, fieldset, legend
+- Learning resources

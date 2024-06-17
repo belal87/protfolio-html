@@ -160,26 +160,63 @@
       <section id="contact">
         <h2>Contact us</h2>
         <form action="https://formspree.io/f/xknrbwbv" method="POST">
+          <fieldset>
+            <legend>Personal information</legend>
+            <div>
+              <label for="name">Name : </label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div>
+              <label for="email">Email : </label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="age">Age : </label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="18"
+                max="55"
+                required
+              />
+            </div>
+          </fieldset>
           <div>
-            <label for="name">Name : </label>
-            <input type="text" id="name" name="name" />
-          </div>
-
-          <div>
-            <label for="email">Email : </label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div>
-            <label for="age">Age : </label>
+            <label for="favorite">Favorite Colar</label>
             <input
-              type="number"
-              id="age"
-              name="age"
-              min="18"
-              max="55"
+              type="color"
+              id="favorite"
+              name="favorite"
+              value="#fff"
               required
             />
           </div>
+          <div>
+            <label for="exprience"
+              >Number of years learning web development :
+            </label>
+            <input
+              type="range"
+              id="exprience"
+              name="exprience"
+              min="1"
+              max="10"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="programming">Favorite Programming</label>
+            <input list="languags" id="programming" name="programming" />
+            <datalist id="languags">
+              <option value="c"></option>
+              <option value="c++"></option>
+              <option value="python"></option>
+              <option value="html"></option>
+            </datalist>
+          </div>
+
           <div>
             <label for="website">Website</label>
             <input
