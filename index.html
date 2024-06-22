@@ -7,7 +7,7 @@
     <meta name="author" content="belal hossain" />
     <meta name="keywords" content="portfolio, html" />
     <meta name="description" content="This is portfolio website" />
-    meta
+
     <title>Protfolio</title>
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,16 +24,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
     <style>
       body {
         font-family: "Roboto", sans-serif;
-        background-color: rgb(231, 234, 237);
+      }
+      a {
+        color: rgb(146, 55, 55);
       }
     </style>
   </head>
   <body>
     <!-- section: navbar-->
-    <header>
+    <header class="abcd">
       <nav>
         <ul>
           <li><a href="index.html" title="Home">Home</a></li>
@@ -48,7 +51,12 @@
 
     <main>
       <section id="intro">
-        <h1>Belal Hossain</h1>
+        <h1>♨ Belal ❤️ Hossain ♨</h1>
+        <img
+          src="assits/images/img1.jpeg"
+          height="300"
+          alt="image does not show"
+        /><br />
         <strong>Hello Protugal</strong><br />
         <em>Hello Protugal</em><br />
         <b><mark>Hello Protugal</mark></b
@@ -228,7 +236,13 @@
           </div>
           <div>
             <label for="image">Upload Image:</label>
-            <input type="file" id="image" name="image" accept="image/*" />
+            <input
+              type="file"
+              id="image"
+              name="image"
+              alt="image does not uploaded"
+              accept="image/*"
+            />
           </div>
           <div>
             <label for="country">Country : </label>
@@ -241,12 +255,17 @@
           </div>
 
           <div>
-            <label for="email">Message : </label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <label for="mess">Message : </label>
+
+            <textarea cols="20" rows="5" name="mess" id="mess"></textarea>
           </div>
 
-          <button type="submit">Submit</button>
-          <button type="reset">Clear</button>
+          <label for="">
+            <button type="submit">Submit</button>
+          </label>
+          <label for="">
+            <button type="reset">Clear</button>
+          </label>
         </form>
       </section>
     </main>
@@ -258,12 +277,16 @@
         <h3>Follow Me</h3>
         <ul>
           <li>
-            <a href="http://google.com"><i class="fa-brands fa-google"></i></a>
+            <a href="http://google.com">
+              <i class="fa-brands fa-google"></i>
+              Google
+            </a>
           </li>
           <li>
-            <a href="http://youtube.com"
-              ><i class="fa-brands fa-youtube"></i
-            ></a>
+            <a href="http://youtube.com">
+              <i class="fa-brands fa-youtube"></i>
+              Youtube
+            </a>
           </li>
         </ul>
       </div>

@@ -65,7 +65,21 @@
   - use semantic tag
   - use lang attribute
   - use heading tags in order (h1->h2->h3)
+  - use alt attribute for image
+  - contrast ratio
+  - use menaingful link text
 - HTML5 API
 - HTML Templates and web components
 - sources for symbols, icons, emojis, colors, datalist, fieldset, legend
 - Learning resources
+
+## Basic CSS
+
+- introduction to CSS
+- Ways to add CSS
+- Selectors and combinators
+- CSS Specificity
+- Typography
+- Box Model
+- Background properties
+- Basic layout - float, positioning
