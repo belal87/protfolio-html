@@ -78,8 +78,10 @@
 - introduction to CSS
 - Ways to add CSS
 - Selectors and combinators
+- CSS3 Variables
 - CSS Specificity
-- Typography
-- Box Model
+- Typography - font, text, color, icon
+- Box Model ( height, width)
 - Background properties
 - Basic layout - float, positioning
+- Design a card

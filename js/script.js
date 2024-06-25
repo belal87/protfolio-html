@@ -1,2 +1,5 @@
-console.log("first", first);
-console.error(first);
+const getName = () => {
+  return "Belal Hossain";
+};
+
+console.log(getName());

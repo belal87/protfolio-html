@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #fff;
+  --background-color: #f4f4f4;
+}
+
+input,
+select,
+textarea {
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--background-color);
+  color: #333;
+}
+h1,
+h2 {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+button:hover {
+  background-color: red;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+nav ul {
+}
+nav ul li {
+}
+nav ul li a {
+  color: var(--secondary-color);
+}
+
+main {
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+.social-media a {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
